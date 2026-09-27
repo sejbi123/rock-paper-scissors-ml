@@ -325,20 +325,3 @@ on visual patterns beyond the intended hand gestures.
 The final evaluation will help us understand not only how accurate the
 model is on the 30 unseen images, but also what kinds of visual conditions
 cause it to make incorrect predictions.
-
-### Sample images
-
-**Rock**
-![Rock sample](docs/images/rock/91.jpg)
-
-**Paper**
-![Paper sample](docs/images/paper/0.jpg)
-
-**Scissors**
-![Scissors sample](docs/images/scissors/31.jpg)
-
-### Known limitations
-
-The model always predicts one of the three classes — there is no
-"unknown/other" class, so an image of anything else will still be forced
-into one of the three categories.
