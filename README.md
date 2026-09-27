@@ -8,7 +8,7 @@ This project was built by a team of three:
 - Gjergji
 - Reina 
 - Sejbi
-- 
+  
 ### Data Statement
 
 Our dataset contains images of hands showing three gestures: rock, paper,
