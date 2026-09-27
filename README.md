@@ -89,13 +89,13 @@ images in the final training set).
 ### Sample images
 
 **Rock**
-![Rock sample](docs/images/rock/REPLACE_WITH_FILENAME.jpg)
+![Rock sample](docs/images/rock/91.jpg)
 
 **Paper**
-![Paper sample](docs/images/paper/REPLACE_WITH_FILENAME.jpg)
+![Paper sample](docs/images/paper/0.jpg)
 
 **Scissors**
-![Scissors sample](docs/images/scissors/REPLACE_WITH_FILENAME.jpg)
+![Scissors sample](docs/images/scissors/31.jpg)
 
 ### Known limitations
 
