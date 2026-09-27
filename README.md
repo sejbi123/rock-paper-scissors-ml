@@ -1,5 +1,7 @@
 # rock-paper-scissors-ml
 
+# rock-paper-scissors-ml
+
 ## Dataset & Training Methodology
 
 ### Team
@@ -7,6 +9,21 @@ This project was built by a team of three:
 - Gjergji — Rock
 - Reina — Scissors
 - Sejbi — Paper
+
+### Project timeline
+
+The project ran over four days:
+
+- **Day 1 — Kickoff.** Since we don't have Slack, we set up a WhatsApp
+  group and used it as our main communication channel for the rest of
+  the project. This day was planning only — no data collection yet.
+- **Day 2 — Collect.** All three of us gathered raw rock/paper/scissors
+  images together and ran an initial pass to remove duplicates.
+- **Day 3 — Train.** We organized the pool by variety, split the final
+  selection work by class, and trained the model in Teachable Machine.
+- **Day 4 — Ship.** We tested the model across different rooms, lighting
+  conditions, and framing, then exported the final model and wrote up
+  this documentation.
 
 ### Why we didn't just split the classes from the start
 
@@ -24,6 +41,8 @@ bright = rock" instead of the actual hand shape, which falls apart the
 moment it's tested somewhere new.
 
 ### Our actual process
+
+![Dataset and training pipeline](docs/images/dataset_training_pipeline.png)
 
 1. **Collect together, not separately.** All three of us gathered raw
    images for all three classes together first, combining everything
@@ -58,8 +77,28 @@ moment it's tested somewhere new.
 
 ### Dataset summary
 
-| Class    | Assigned to | Image count |
-|----------|-------------|-------------|
-| Rock     | Gjergji     | 100         |
-| Paper    | Sejbi       | 100         |
-| Scissors | Reina       | 100         |
+| Class    | Finalized by | Image count |
+|----------|--------------|-------------|
+| Rock     | Gjergji      | 100         |
+| Paper    | Sejbi        | 100         |
+| Scissors | Reina        | 100         |
+
+All 300 images are real photos taken by the team (no synthetic or stock
+images in the final training set).
+
+### Sample images
+
+**Rock**
+![Rock sample](docs/images/rock/REPLACE_WITH_FILENAME.jpg)
+
+**Paper**
+![Paper sample](docs/images/paper/REPLACE_WITH_FILENAME.jpg)
+
+**Scissors**
+![Scissors sample](docs/images/scissors/REPLACE_WITH_FILENAME.jpg)
+
+### Known limitations
+
+The model always predicts one of the three classes — there is no
+"unknown/other" class, so an image of anything else will still be forced
+into one of the three categories.
