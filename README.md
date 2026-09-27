@@ -5,9 +5,9 @@
 
 ### Team
 This project was built by a team of three:
-- Gjergji — Rock
-- Reina — Scissors
-- Sejbi — Paper
+- Gjergji
+- Reina 
+- Sejbi 
 
 ### Project timeline
 
