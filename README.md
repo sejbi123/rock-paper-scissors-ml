@@ -23,6 +23,34 @@ other unnecessary personally identifiable information.
 
 The final dataset and exported model are stored in this project repository.
 
+### Data Sources
+
+The final dataset combines images from multiple sources:
+
+- **Team-generated photographs:** Images taken by the three team members
+  using our phones, showing our own hands making the target gestures.
+
+- **Online datasets:** Additional images obtained from publicly available
+  image datasets.
+
+- **Google Images:** Additional images collected through Google Images to
+  increase visual variety.
+
+The external sources were used to increase the diversity of poses,
+backgrounds, lighting conditions, and hand appearances in the dataset.
+
+### Data Diversity
+
+To reduce dependence on a single visual environment, the dataset includes
+variation in:
+
+- **Lighting:** different brightness levels and indoor lighting conditions.
+- **Backgrounds:** different surrounding environments and surfaces.
+- **Angles:** different hand orientations and camera angles.
+- **Framing:** different distances and positions of the hand within the image.
+- **People:** photographs from the team members and images from external
+  sources with different hand appearances.
+  
 ### Project timeline
 
 The project ran over four days:
@@ -30,8 +58,10 @@ The project ran over four days:
 - **Day 1 — Kickoff.** Since we don't have Slack, we set up a WhatsApp
   group and used it as our main communication channel for the rest of
   the project. This day was planning only — no data collection yet.
-- **Day 2 — Collect.** All three of us gathered raw rock/paper/scissors
-  images together and ran an initial pass to remove duplicates.
+- **Day 2 — Collect.** All three of us contributed to the dataset collection.
+  We combined photographs taken by the team with additional images obtained
+  from online datasets and Google Images, then ran an initial pass to remove
+  duplicates.
 - **Day 3 — Train.** We organized the pool by variety, split the final
   selection work by class, and trained the model in Teachable Machine.
 - **Day 4 — Ship.** We tested the model across different rooms, lighting
@@ -92,12 +122,10 @@ moment it's tested somewhere new.
 
 | Class    | Finalized by | Image count |
 |----------|--------------|-------------|
-| Rock     | Gjergji      | 100         |
-| Paper    | Sejbi        | 100         |
-| Scissors | Reina        | 100         |
+| Rock     | Gjergji      | 200         |
+| Paper    | Sejbi        | 200         |
+| Scissors | Reina        | 200         |
 
-All 300 images are real photos taken by the team (no synthetic or stock
-images in the final training set).
 
 ### Sample images
 
