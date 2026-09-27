@@ -1,6 +1,5 @@
 # rock-paper-scissors-ml
 
-
 ## Project Overview
 
 This project explores how an image classification model can distinguish
@@ -8,13 +7,11 @@ between three hand gestures: Rock, Paper, and Scissors.
 
 The project covers the complete workflow of collecting and preparing image
 data, training an image classification model using Google's Teachable
-Machine, testing the model under different conditions, and evaluating its
-performance on previously unseen images.
+Machine, and testing the model under different conditions.
 
 The main goal was not only to train a model that recognizes the three
-gestures, but also to investigate how well the model generalizes to new
-images and whether factors such as lighting, background, framing, and hand
-appearance can influence its predictions.
+gestures, but also to investigate how factors such as lighting, background,
+framing, and hand appearance can influence its predictions.
 
 ## Dataset & Training Methodology
 
@@ -134,8 +131,8 @@ moment it's tested somewhere new.
    (lighting, background, angle) across all three classes, since the
    raw material was already shared and balanced.
 
-5. **Train.** Images were used to train an image classification model
-   in Google's Teachable Machine.
+5. **Train.** The final dataset was used to train the image classification
+   model in Google's Teachable Machine.
 
 6. **Test across conditions.** We tested the trained model manually
    across a range of real-world conditions — different rooms, lighting
@@ -155,18 +152,6 @@ moment it's tested somewhere new.
 The final dataset contains **600 images**, with **200 images per class**.
 
 The dataset is balanced across the three target classes.
-
-### Data Distribution
-
-The dataset was intentionally kept balanced across the three target
-classes:
-
-- **Rock:** 200 images
-- **Paper:** 200 images
-- **Scissors:** 200 images
-
-This equal class distribution prevents one target class from having a
-larger representation than the others in the final training dataset.
 
 ### Sample Images
 
@@ -217,81 +202,6 @@ We tested the model under different conditions, including:
 The purpose of this testing was to observe whether the model's predictions
 remained stable when the visual conditions changed.
 
-#### Evidence
-
-**Class Distribution**
-
-![Teachable Machine classes](docs/images/screenshots/classes.png)
-
-**Correct Prediction**
-
-![Correct prediction](docs/images/screenshots/correct.png)
-
-**Confident Wrong Prediction**
-
-![Wrong prediction](docs/images/screenshots/wrong.png)
-
-### Cross-Group Evaluation
-
-The final model was evaluated by another group using a separate set of
-**30 previously unseen images**:
-
-- 10 Rock
-- 10 Paper
-- 10 Scissors
-
-The purpose of this evaluation was to test how well the model generalizes
-to images that were not part of the original training dataset.
-
-#### Results Grid
-
-| Actual | Said Rock | Said Paper | Said Scissors |
-|--------|-----------|------------|---------------|
-| Rock | — | — | — |
-| Paper | — | — | — |
-| Scissors | — | — | — |
-
-#### Accuracy
-
-Correct predictions: **— / 30**
-
-Accuracy: **—%**
-
-#### Observations
-
-The most common confusion was between **—** and **—**.
-
-The model performed best on **—**.
-
-The results suggest that **—**.
-
-### Worst Failure
-
-![Worst failure](docs/images/worst_failure.png)
-
-- **Actual:** —
-- **Predicted:** —
-- **Confidence:** —%
-
-The model's most significant failure was selected from the cross-group
-evaluation based on an incorrect prediction with high confidence.
-
-The image will be analyzed to identify which visual characteristics may
-have contributed to the incorrect prediction.
-
-### What Did Our Model Actually Learn?
-
-The model was trained to distinguish between Rock, Paper, and Scissors
-based on visual information contained in the training images.
-
-The cross-group evaluation helps us determine whether the model mainly
-learned the intended hand gestures or whether it also relied on other
-visual characteristics such as lighting, background, framing, or hand
-appearance.
-
-The final analysis will be based on the prediction patterns and failures
-observed during the cross-group evaluation.
-
 ### Known Limitations
 
 - The model always predicts one of the three target classes — there is no
@@ -308,20 +218,16 @@ observed during the cross-group evaluation.
 - The external images may have different visual characteristics from the
   photographs taken by the team.
 
-- The cross-group evaluation uses only 30 unseen images, so its accuracy
-  should not be interpreted as a general measure of real-world performance.
-
 ### Conclusion
 
 This project demonstrates the complete workflow of building a small image
 classification system, from dataset collection and preparation to model
-training, testing, and evaluation.
+training and testing.
 
 The project also focuses on how dataset diversity can affect model
-behavior. By testing the model on unseen images from another group, we can
-identify where the model succeeds, where it fails, and whether it relies
-on visual patterns beyond the intended hand gestures.
+behavior. By introducing variation in lighting, backgrounds, angles,
+framing, and hand appearance, we aimed to reduce the risk of the model
+learning environment-specific patterns instead of the intended gestures.
 
-The final evaluation will help us understand not only how accurate the
-model is on the 30 unseen images, but also what kinds of visual conditions
-cause it to make incorrect predictions.
+Further evaluation on previously unseen images will be used to analyze the
+model's generalization and identify potential failure patterns.
