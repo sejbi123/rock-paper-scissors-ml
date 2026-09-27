@@ -1,6 +1,5 @@
 # rock-paper-scissors-ml
 
-# rock-paper-scissors-ml
 
 ## Dataset & Training Methodology
 
