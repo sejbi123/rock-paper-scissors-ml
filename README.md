@@ -7,7 +7,21 @@
 This project was built by a team of three:
 - Gjergji
 - Reina 
-- Sejbi 
+- Sejbi
+- 
+### Data Statement
+
+Our dataset contains images of hands showing three gestures: rock, paper,
+and scissors. The dataset combines photographs taken by the three team
+members using our phones with additional images obtained from online
+datasets and Google Images.
+
+The photographs taken by the team show our own hands, and we are
+comfortable with these images being published in this project repository.
+We reviewed the team-generated photographs to avoid including faces or
+other unnecessary personally identifiable information.
+
+The final dataset and exported model are stored in this project repository.
 
 ### Project timeline
 
