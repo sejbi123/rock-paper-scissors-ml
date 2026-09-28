@@ -1,4 +1,4 @@
-# Rock-Paper-scissors-ml
+# Rock-Paper-Scissors-ml
 
 ## Project Overview
 
