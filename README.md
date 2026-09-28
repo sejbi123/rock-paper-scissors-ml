@@ -249,11 +249,11 @@ framing.
 
 **Scissors**
 
-![Paper test 1](docs/images/test/scissors_test/scissors_test01.jpeg)
+![Paper test 1](docs/images/test/scissors_test/scissor_test01.jpeg)
 
-![Paper test 1](docs/images/test/scissors_test/scissors_test02.jpeg)
+![Paper test 1](docs/images/test/scissors_test/scissor_test02.jpeg)
 
-![Paper test 1](docs/images/test/scissors_test/scissors_test03.jpeg)
+![Paper test 1](docs/images/test/scissors_test/scissor_test02.jpeg)
 
 These examples provide a visual representation of the testing process and
 show how the model was evaluated under conditions different from the
