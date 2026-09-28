@@ -91,7 +91,7 @@ The project ran over four days:
   conditions, and framing, then exported the final model and wrote up
   this documentation.
 
-### Why We Didn't Just Split the Classes From the start
+### Why We Didn't Just Split the Classes From the Start
 
 An obvious way to split the data-gathering work three ways is to assign
 each person one class and have them go collect images for it independently.
