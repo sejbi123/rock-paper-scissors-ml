@@ -202,6 +202,63 @@ We tested the model under different conditions, including:
 The purpose of this testing was to observe whether the model's predictions
 remained stable when the visual conditions changed.
 
+### Internal Testing
+
+After training, we tested the model manually using the Teachable Machine
+preview interface.
+
+We tested the model under different conditions, including:
+
+- different lighting levels;
+- different backgrounds;
+- different rooms;
+- different camera angles;
+- different distances and framing;
+- Rock, Paper, and Scissors gestures;
+- inputs outside the three target classes.
+
+For each class, we selected three test examples showing different
+combinations of camera angles and lighting conditions. These examples are
+included in the repository and are used to demonstrate the conditions under
+which the model was tested.
+
+The purpose of this testing was to observe whether the model's predictions
+remained stable when the visual conditions changed.
+
+### Test Examples
+
+The following examples show three tests for each of the three target
+classes. The images demonstrate variations in camera angle, lighting, and
+framing.
+
+**Rock**
+
+![Rock test 1](docs/images/tests/rock_test/1.jpg)
+
+![Rock test 2](docs/images/tests/rock/2.jpg)
+
+![Rock test 3](docs/images/tests/rock/3.jpg)
+
+**Paper**
+
+![Paper test 1](docs/images/tests/paper/1.jpg)
+
+![Paper test 2](docs/images/tests/paper/2.jpg)
+
+![Paper test 3](docs/images/tests/paper/3.jpg)
+
+**Scissors**
+
+![Scissors test 1](docs/images/tests/scissors/1.jpg)
+
+![Scissors test 2](docs/images/tests/scissors/2.jpg)
+
+![Scissors test 3](docs/images/tests/scissors/3.jpg)
+
+These examples provide a visual representation of the testing process and
+show how the model was evaluated under conditions different from the
+original training images.
+
 ### Known Limitations
 
 - The model always predicts one of the three target classes — there is no
