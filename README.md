@@ -235,25 +235,25 @@ framing.
 
 ![Rock test 1](docs/images/test/rock_test/rock_test01.jpeg)
 
-![Rock test 2](docs/images/test/rock_test/rock_test02.jpg)
+![Rock test 2](docs/images/test/rock_test/rock_test02.jpeg)
 
-![Rock test 3](docs/images/test/rock_test/rock_test03.jpg)
+![Rock test 3](docs/images/test/rock_test/rock_test03.jpeg)
 
 **Paper**
 
-![Paper test 1](docs/images/test/paper_test/paper_test01.jpg)
+![Paper test 1](docs/images/test/paper_test/paper_test01.jpeg)
 
-![Paper test 1](docs/images/test/paper_test/paper_test02.jpg)
+![Paper test 1](docs/images/test/paper_test/paper_test02.jpeg)
 
-![Paper test 1](docs/images/test/paper_test/paper_test03.jpg)
+![Paper test 1](docs/images/test/paper_test/paper_test03.jpeg)
 
 **Scissors**
 
-![Paper test 1](docs/images/test/scissors_test/scissors_test01.jpg)
+![Paper test 1](docs/images/test/scissors_test/scissors_test01.jpeg)
 
-![Paper test 1](docs/images/test/scissors_test/scissors_test02.jpg)
+![Paper test 1](docs/images/test/scissors_test/scissors_test02.jpeg)
 
-![Paper test 1](docs/images/test/scissors_test/scissors_test03.jpg)
+![Paper test 1](docs/images/test/scissors_test/scissors_test03.jpeg)
 
 These examples provide a visual representation of the testing process and
 show how the model was evaluated under conditions different from the
