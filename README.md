@@ -199,24 +199,6 @@ We tested the model under different conditions, including:
 - Rock, Paper, and Scissors gestures;
 - inputs outside the three target classes.
 
-The purpose of this testing was to observe whether the model's predictions
-remained stable when the visual conditions changed.
-
-### Internal Testing
-
-After training, we tested the model manually using the Teachable Machine
-preview interface.
-
-We tested the model under different conditions, including:
-
-- different lighting levels;
-- different backgrounds;
-- different rooms;
-- different camera angles;
-- different distances and framing;
-- Rock, Paper, and Scissors gestures;
-- inputs outside the three target classes.
-
 For each class, we selected three test examples showing different
 combinations of camera angles and lighting conditions. These examples are
 included in the repository and are used to demonstrate the conditions under
@@ -224,6 +206,23 @@ which the model was tested.
 
 The purpose of this testing was to observe whether the model's predictions
 remained stable when the visual conditions changed.
+
+### Failure Case
+
+During testing, we also observed cases where the model incorrectly
+classified a gesture. One representative failure case is shown below.
+
+**Example Failure**
+
+![Failure case](docs/images/tests/failure/failure.jpg)
+
+In this example, the model did not correctly identify the intended gesture.
+This demonstrates one of the limitations of the model and shows how changes
+in lighting, camera angle, framing, background, or hand appearance can affect
+the prediction.
+
+Failure cases such as this are useful for identifying conditions where the
+model may need additional training data or greater variation in the dataset.
 
 ### Test Examples
 
