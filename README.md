@@ -157,15 +157,15 @@ The dataset is balanced across the three target classes.
 
 **Rock**
 
-![Rock sample](docs/images/rock/91.jpg)
+![Rock sample](docs/images/rock/076.jpg)
 
 **Paper**
 
-![Paper sample](docs/images/paper/0.jpg)
+![Paper sample](docs/images/paper/077.jpg)
 
 **Scissors**
 
-![Scissors sample](docs/images/scissors/31.jpg)
+![Scissors sample](docs/images/scissors/071.jpg)
 
 ### Training
 
