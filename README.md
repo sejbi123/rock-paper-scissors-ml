@@ -214,7 +214,7 @@ classified a gesture. One representative failure case is shown below.
 
 **Example Failure**
 
-![Failure case](docs/images/Failure_example.png)
+![Failure case](docs/images/test/Failure_example.png)
 
 In this example, the model did not correctly identify the intended gesture.
 This demonstrates one of the limitations of the model and shows how changes
